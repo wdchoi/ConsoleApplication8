@@ -1,20 +1,6 @@
-#include "iostream"
-#include <string>
-#include <vector>
 
-class Draw {
-public:
-	void doSomething() {
-		std::cout << "draw" << std::endl;
-	}
-};
 
-class Move {
-public:
-	void doSomething() {
-		std::cout << "move" << std::endl;
-	}
-};
+
 class GeometricObjectInterface {
 public:
 	virtual void doSomething() = 0;
